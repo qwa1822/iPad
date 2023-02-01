@@ -122,8 +122,8 @@ infoEls.forEach(function(el){
 
 // 비디오 재생!
 const video=document.querySelector('.stage video');
-const playBtn=document.querySelector('.stage .contorller--play');
-const PauseBtn=document.querySelector('.stage .contorller--puase');
+const playBtn=document.querySelector('.stage .controller--play');
+const PauseBtn=document.querySelector('.stage .controller--pause');
 
 
 playBtn.addEventListener('click',function(){
